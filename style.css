@@ -1,0 +1,102 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+body{
+    margin: 0;
+    font-family: 'Roboto';
+    background: FFE7C7;
+}
+
+h3, h5, h6{
+    font-weight: 300;
+}
+
+iframe{
+    margin: 1em 0em 1em 0em;
+}
+img{
+    width: 50%;
+}
+
+.first-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.first-part-text{
+    width: 40%;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-part{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+.second-part-content{
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px){
+    .first-part-text{
+        width: 80%;
+    }
+    
+    
+    .second-part-content{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .first-part-text{
+        width: 70%;
+    }
+    h1{
+        font-size: 4.5em;
+    }
+    h3{
+        font-size: 2em;
+    }
+    h5, h6{
+        font-size: 1em;
+    }
+    .second-part-content{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .first-part-text{
+        width: 60%;
+    }
+    .second-part-content{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .first-part-text{
+        width: 50%;
+    }
+    .second-part-content{
+        width: 50%;
+    }
+}
